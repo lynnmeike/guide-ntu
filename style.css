@@ -1,0 +1,124 @@
+body{
+background: white url(images/background.jpg) no-repeat center center;
+background-attachment:fixed;
+background-size:cover;
+}
+
+header{
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index: 10000;
+overflow: hidden;
+}
+
+nav {position:fixed;
+	width:100%;
+	height:40px;
+	background-color:#08115E;}
+
+nav ul{
+    display:block;
+    float:right;
+    list-style-type: none;
+    margin-top: 10px;
+	padding:0px;}
+
+nav ul li{display:inline;
+			padding:3em;}
+
+nav ul li a{text-decoration:none;
+			font-size:20px;
+			color:white;}
+
+h1{color:#2C218C;
+	text-align:right;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:40px;
+	margin-bottom:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	font-size:60px;
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color:white;
+	background:url(images/bandeau.jpg) no-repeat center center;
+	background-size:cover;}
+
+h2{color:#216AFF;
+	font-size:20px;
+	font-family: 'Delius Swash Caps', cursive;
+	margin:10px;
+	text-align:center;}
+
+h3 { text-align:center;
+	font-family: 'Alike', serif;
+	margin:20px;
+color: 08115E;}
+
+p { text-align:justify;
+	font-family: 'Alike', serif;
+	margin:20px;}
+
+img {border:1px solid #40170E;
+	margin:10px;}	
+
+
+section {height:1000px;
+		display:block;}
+
+
+#section1{background:url(images/ntubg.jpg) no-repeat center center;
+			background-size:cover;}
+#section1 h1{background:none;
+			font-size:80px;
+			margin-right:40px;}
+#section1 p{margin-top:80px;
+			padding:20px;
+			background-color: rgba(150, 229, 255, 0.5);}
+#deroulant {text-align: bottom;}
+
+#section2{}
+#section3{}
+#section4{}
+#section5{}
+#section6{}
+#section7{}
+
+
+
+div.demi {height:90%;
+			width:50%;
+			display:inline-block;
+			float:left;}
+
+div.demi .quart {height:50%;
+				width:100%;
+			}
+
+div.demi img{width:80%;
+	position:center;}
+
+div.demi .quart img{width:90%;
+	position:center;}
+
+div.demi .quart .gauche{height:50%; float:left;}
+
+div.demi .quart .gauche img{border:1px solid #E84712;
+	margin:10px;
+	width:40%;
+	float:left;}
+
+div.demi .quart .droit{height:50%; float:right;}
+
+div.demi .quart .droit img{width:40%;}
+
+
+
+
+#logo{border:0px; width:100px; position:center;}
+
+#transport img{width:30%;}
+
+#moi{width:50%;}
