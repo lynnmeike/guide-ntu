@@ -11,6 +11,7 @@ h1, h2, h3,p {margin:0;
 /************************************/	
 
 /***************BODY*****************/
+
 body{
 	background: white url(images/background.jpg) no-repeat center center;
 	background-attachment:fixed;
@@ -18,21 +19,18 @@ body{
 	}
 
 /****************Titre H1******************/
+
 h1{color:#2C218C;
 	text-align:right;
-
 	margin-left:0px;
 	margin-right:0px;
 	margin-top:40px;
 	margin-bottom:20px;
-
 	padding-top:40px;
 	padding-bottom:40px;
 	padding-right:40px;
-
 	font-size:70px;
 	font-family: 'Gloria Hallelujah', cursive;
-
 	background-color:white;
 	background:url(images/bandeau.jpg) no-repeat center center;
 	background-size:cover;
@@ -81,7 +79,7 @@ h3 {font-family: 'Alike', serif;
 	color: #08115E;
 	font-size:20px;
 	text-align:center;
-	vertical-align:center;}
+	padding-top:70px;}
 
 @media (max-width:768px) {
 	h3{font-size:15px;
@@ -126,6 +124,7 @@ img {border:1px solid #08115E;
 /************************************/	
 
 /****************Header******************/
+
 header{
 	position: fixed;
 	top: 0;
@@ -144,12 +143,6 @@ header{
 	color:white;
 	font-family: 'Gloria Hallelujah', cursive;}
 
-#manavbarre div ul {background-color:#08115E;}
-
-#manavbarre div ul li {background-color:#08115E;}
-
-#manavbarre div ul li a{background-color:#08115E;}
-
 @media (min-width:321px) and (max-width:959px) { 
 	#manavbarre a{font-size:13px;}
 }
@@ -158,7 +151,7 @@ header{
 /* 				SECTIONS			*/
 /************************************/	
 
-/****************Description générale des sections******************/
+/**********Description générale des sections*********/
 
 section {height:auto;
 		display:block;}
@@ -184,7 +177,6 @@ section {height:auto;
   			background-color:white;
 			font-size:30px;
 			padding-top:40px;}
-
 }
 
 	/* tablette */
@@ -197,6 +189,15 @@ section {height:auto;
 /************************************/
 /* 				AUTRES				*/
 /************************************/
+
+
+.carousel-page img {margin:0px auto;
+					width:80%;}
+
+@media (max-width:600px) { 
+	.carousel-page img {margin:0px auto;
+						width:100%;}
+}
 
 .col-sm-4  	p{margin-left:0px;
 				margin-right:0px;
